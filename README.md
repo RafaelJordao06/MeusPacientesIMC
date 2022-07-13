@@ -7,6 +7,7 @@
 - [x] Calcular IMC;
 - [x] Filtro de busca na tabela;
 - [x] Buscar pacientes (Através de uma API);
+- [x] Verificação de preenchimento dos campos;
 - [ ] Salvar informações em uma banco de dados;
   
 ### 🛠 Tecnologias
