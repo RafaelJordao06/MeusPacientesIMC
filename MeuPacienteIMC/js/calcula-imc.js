@@ -1,5 +1,5 @@
 var titulo = document.querySelector(".Titulo");
-titulo.textContent = "Teste";
+titulo.textContent = "Sistema de calcular IMC";
 
 var paciente =  document.querySelectorAll(".paciente");
 
@@ -19,7 +19,7 @@ for(var i = 0; i < paciente.length; i++){
 
     if(!pesoEhValido){
         console.log("Peso inválido!");
-        alturaEhValido = false;
+        pesoEhValido = false;
         tdImc.textContent = "Peso inválido!";
         paciente[i].classList.add("paciente-invalido");
 
